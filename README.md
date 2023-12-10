@@ -41,9 +41,9 @@ sumarizer = summarizer.Summarizer(open_ai_key="YOUR OPEN_AI KEY")
 
 print(sumarizer.summarize_youtube("https://www.youtube.com/watch?v=iNyUmbmQQZg"))
 ```
-RESULT
----
 
+#### result
+```
 The main idea of the conversation is the potential of artificial intelligence (AI) and deep learning models in revolutionizing the fields of biomedical research, protein structure prediction, medical diagnostics, and patient care.
 
 Key Points:
@@ -72,3 +72,5 @@ Concepts and Ideas:
 
 Summary:
 The conversation explores the potential of AI and deep learning models in transforming various aspects of biomedical research and healthcare. AlphaFold, a derivative of DeepMind, has revolutionized protein structure prediction, while AI has shown promise in improving diagnostic accuracy and enabling precision medicine. Medical imaging, including retina scans and chest x-rays, can be analyzed by AI to detect diseases and conditions better than expert physicians. AI's integration, particularly in deep neural networks and transformer models like GPT-4, offers significant advancements in multimodal capabilities and self-supervised learning. The conversation emphasizes the importance of validation and balancing the benefits and risks of AI in healthcare. Ultimately, the integration of AI has the potential to liberate clinicians from administrative tasks and enhance the patient-doctor relationship with the gift of time.
+
+```
